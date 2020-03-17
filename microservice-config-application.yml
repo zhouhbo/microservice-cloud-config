@@ -1,18 +1,21 @@
-#×¢Òâ£ºÈç¹ûÔÚ¼ÇÊÂ±¾ÉÏ±àĞ´£¬ÏÂÃæµÄËõ½ø²»ÒªÊ¹ÓÃTabÀ´Ëõ½ø£¬²»È»±¨´í
+ï»¿#æ³¨æ„ï¼šå¦‚æœåœ¨è®°äº‹æœ¬ä¸Šç¼–å†™ï¼Œä¸‹é¢çš„ç¼©è¿›ä¸è¦ä½¿ç”¨Tabæ¥ç¼©è¿›ï¼Œä¸ç„¶æŠ¥é”™
 spring:
   profiles:
-    active: dev # ¼¤»î¿ª·¢»·¾³ÅäÖÃ
+    active: dev # æ¿€æ´»å¼€å‘ç¯å¢ƒé…ç½®
 ---
 server:
-  port: 4001 #¶Ë¿ÚºÅ
+  port: 4001 #ç«¯å£å·
 spring:
-  profiles: dev # ¿ª·¢»·¾³
+  profiles: dev # å¼€å‘ç¯å¢ƒ
   application:
-    name: microservice-config-dev
+    name: microservice-config-dev11
+name: 11
 ---
 server:
-  port: 4002 #¶Ë¿ÚºÅ
-spring:
-  profiles: prod # Éú²ú»·¾³
+  port: 4002 #ç«¯å£å·
+spring: 
+  profiles: prod # ç”Ÿäº§ç¯å¢ƒ
   application:
     name: microservice-config-prod
+
+#ä¿å­˜æ—¶æ³¨æ„ï¼Œé€‰æ‹© UTF-8 ä¿å­˜
